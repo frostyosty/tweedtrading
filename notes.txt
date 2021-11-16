@@ -2,3 +2,9 @@ eslint removed from package.json dev dependencies in root
 
     "eslint": "^7.9.0",
     "eslint-plugin-react": "^7.21.2",
+
+
+
+Heroku cheatsheet
+
+https://blog.heroku.com/deploying-react-with-zero-configuration
