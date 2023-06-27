@@ -8,3 +8,36 @@ eslint removed from package.json dev dependencies in root
 Heroku cheatsheet
 
 https://blog.heroku.com/deploying-react-with-zero-configuration
+
+
+SELLER PROBLEM?
+TypeError: Cannot read property '_id' of undefined                                                                                                  <div className="row">
+
+  20 |   <div className="price">Rs.{Product.price}</div>
+
+  21 |   <div>
+
+> 22 |     <Link to={`/seller/${Product.seller._id}`}>
+
+ | ^  23 |       {Product.seller.seller.name}
+
+  24 |     </Link>
+
+  25 |   </div>
+ANSWER:
+it is because of changing data model. 
+Follow these steps to fix this error:
+
+1- Login with this seller account and in User Profile set a name for this seller.
+
+2- Make sure you have a user with this id (product.seller._id) or not. if you deleted that user you need to delete the product too and create it again. make sure for current user you have set the seller name in User profile.
+
+If it does not work you can simply clone the course repo:
+
+https://github.com/basir/amazona
+
+Then follow this guide to run it locally:
+
+https://github.com/basir/amazona#run-locally
+
+Then compare your code with this.
