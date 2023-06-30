@@ -9,7 +9,7 @@ const data = {
       isAdmin: true,
       isSeller: true,
       seller: {
-        name: 'Puma',
+        name: 'Window',
         logo: '/images/logo1.png',
         description: 'best seller',
         rating: 4.5,
@@ -33,7 +33,7 @@ const data = {
       brand: 'No brand',
       rating: 4.5,
       numReviews: 10,
-      description: 'high quality product',
+      description: 'used timber',
     },
     {
       name: 'Stainless Steel Sink',
@@ -69,8 +69,8 @@ const data = {
       description: 'high quality product',
     },
     {
-      name: 'Aluminium Ranchslider',
-      category: 'Ranchslider',
+      name: 'Aluminium Sliding Door',
+      category: 'Sliding Door',
       image: '/images/p5.jpg',
       price: 65,
       countInStock: 5,
